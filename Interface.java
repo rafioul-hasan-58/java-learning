@@ -2,7 +2,6 @@
 public class Interface {
     interface Device {
         void turnOn();
-
         void turnOff();
     }
 
