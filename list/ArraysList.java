@@ -7,13 +7,12 @@ public class ArraysList {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(20);
         numbers.add(30);
-        numbers.set(0, 50);
+        numbers.add(50);
         numbers.add(40);
 
-        for (int i=0;i<numbers.size();i++){
-            System.out.println(numbers.get(i));
-        }
+        System.out.println(numbers.get(0));
+        System.out.println(numbers.get(numbers.size()-1));
 
-        // System.out.println(numbers.isEmpty());
+        System.out.println(numbers);
     }
 }
