@@ -1,4 +1,5 @@
 package list;
+
 import java.util.ArrayList;
 
 public class ArraysList {
@@ -8,8 +9,11 @@ public class ArraysList {
         numbers.add(30);
         numbers.set(0, 50);
         numbers.add(40);
-        numbers.clear();
 
-        System.out.println(numbers);
+        for (int i=0;i<numbers.size();i++){
+            System.out.println(numbers.get(i));
+        }
+
+        // System.out.println(numbers.isEmpty());
     }
 }
