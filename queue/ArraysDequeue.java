@@ -6,6 +6,7 @@ public class ArraysDequeue {
 
         numbers.push(20);
         numbers.push(10);
-        System.out.println();
+        numbers.pop();
+        System.out.println(numbers);
     }
 }
