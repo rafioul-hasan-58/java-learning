@@ -1,3 +1,4 @@
+package list;
 import java.util.LinkedList;
 
 public class LinkList {

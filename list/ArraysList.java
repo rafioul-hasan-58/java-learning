@@ -1,6 +1,7 @@
+package list;
 import java.util.ArrayList;
 
-public class Main {
+public class ArraysList {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(20);
