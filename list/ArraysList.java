@@ -1,18 +1,17 @@
 package list;
 
 import java.util.ArrayList;
-
+import java.util.Collections;
 public class ArraysList {
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.add(20);
-        numbers.add(30);
-        numbers.add(50);
-        numbers.add(40);
+        ArrayList<String> names = new ArrayList<>();
 
-        System.out.println(numbers.get(0));
-        System.out.println(numbers.get(numbers.size()-1));
+        names.add("Mito");
+        names.add("Sourob");
+        names.add("Heigenburg");
 
-        System.out.println(numbers);
+       names.sort(Collections.reverseOrder());
+       System.out.println(names);
+
     }
 }

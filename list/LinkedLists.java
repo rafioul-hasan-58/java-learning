@@ -1,4 +1,5 @@
 package list;
+
 import java.util.LinkedList;
 
 public class LinkedLists {
@@ -7,11 +8,9 @@ public class LinkedLists {
 
         numbers.add(20);
         numbers.add(30);
+        numbers.add(50);
         numbers.addFirst(10);
-        numbers.addLast(40);
-        numbers.removeFirst();
-        numbers.removeLast();
-
-        System.out.println(numbers);
+        numbers.addLast(69);
+       
     }
 }
