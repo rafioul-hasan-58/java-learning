@@ -1,5 +1,9 @@
 package method;
 
+class Mayanur {
+    String name = "Sourav";
+}
+
 public class BasicMethod {
 
     static void greet() {
@@ -7,6 +11,10 @@ public class BasicMethod {
     }
 
     public static void main(String[] args) {
-        greet();
+        Mayanur maruf = new Mayanur();
+        System.out.println("firstCall" + " " + maruf);
+        maruf = null;//dissmiss
+        Mayanur hasan = new Mayanur(); //new tempo;
+        System.out.println("secondCall" + " " + maruf);
     }
 }

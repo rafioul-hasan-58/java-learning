@@ -5,7 +5,6 @@ public class ErrorDemo {
         recursiveMethod();
     }
 
-
     public static void main(String[] args) {
         System.out.println("Starting program...");
         recursiveMethod();
