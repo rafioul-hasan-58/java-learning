@@ -33,7 +33,6 @@ public class Encapsulation {
         account.deposit(5000);
 
         account.withdraw(2000);
-        account.balance=account.balance+100;
 
         System.out.println(account.balance);
     }
