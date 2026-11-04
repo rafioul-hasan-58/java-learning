@@ -9,7 +9,7 @@ class Hello {
         return sum;
     }
 
-    static int getFectorial(int n) {
+    static int factorial(int n) {
         int f = 1;
         for (int i = 1; i <= n; i++) {
             f *= i;
@@ -28,12 +28,15 @@ class Hello {
     }
 
     static int nCr(int n, int r) {
-        int result = (getFectorial(n) / (getFectorial(r) * (getFectorial(n - r))));
+        int f_n = factorial(n);
+        int f_r = factorial(r);
+        int f_nmr = factorial(n - r);
+        int result = f_n / (f_r * (f_nmr));
         return result;
     }
 
     public static void main(String args[]) {
-        System.out.println(nCr(6,3));
+        System.out.println(nCr(6, 3));
 
     }
 }
